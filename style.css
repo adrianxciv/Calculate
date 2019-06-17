@@ -1,0 +1,61 @@
+table.calc {
+    width: 10em;
+    padding: 0.5em 0.5em 0 0.5em;
+    float: left;
+    margin-top: 4em;
+    margin-left: 5em;
+    font-size: 2em;
+    background: #888;
+    border-radius: 0.4em;
+    box-shadow: #6f6f6f 0 0.3em 0 0, #a2a2a2 0 0.5em 0 0, #3a3a3a -0.5em 1em 0 0;
+    border: 0.1em solid #6f6f6f;
+    border-top-color: #a2a2a2;
+    border-right-color: #a2a2a2;
+}
+input.calc {
+    width: 100%;
+    font-family: monospace;
+    background: #606060;
+    color: #f8f8ff;
+    font-size: 1em;
+    height: 1.6em;
+    padding-top: 0.25em;
+    margin: 0 0.5em 0.5em 0;
+    display: block;
+    float: left;
+    line-height: 1;
+    border-radius: 0.2em;
+    cursor: pointer;
+    border: 0.05em solid #3a3a3a;
+    border-top-color: #868686;
+    border-right-color: #868686;
+    text-shadow: #3a3a3a 0 -0.1em 0;
+    box-shadow:#3a3a3a 0 0.2em 0 0, #3a3a3a 0 0.2em 0 0.05em, #6f6f6f -0.1em 0.3em 0 0, #6f6f6f -0.2em 0.4em 0 0;
+    position: relative;  
+}
+* {
+    box-sizing: border-box;
+  }
+body {
+    background: #EAD3B2 url('http://res.cloudinary.com/dr1lhenmg/image/upload/v1517006123/retina_wood_ac3u5j.png');
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    color: #2d2d2d;
+  }
+
+#title {
+    font-family: 'Helvetica Bold', sans-serif;
+    color: #2d2d2d;
+    text-align: center;
+    position: right; top: 25px;
+}
+
+#time {
+    font-family: 'futura Bold', sans-serif;
+    position: fixed; left: 140px; top: 30px;
+}
+
+#name {
+    font-family: 'Helvetica Bold', sans-serif;
+    position: fixed; right: 120px; bottom: 70px;
+}

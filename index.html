@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+    
+<!--Calculator buttons with onclick event of a function to present value-->
+    <table class="calc" cellpadding=6>
+    <tr><td colspan=3><input class="calc" id="screen" type="text"></td></tr>
+    <tr>
+    <td><input class="calc" type="button" value=7 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value=8 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value=9 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value='/' onclick="pushButton(this.value);"></td>
+    </tr>
+    <tr>
+    <td><input class="calc" type="button" value=4 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value=5 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value=6 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value='*' onclick="pushButton(this.value);"></td>
+    </tr>
+    <tr>
+    <td><input class="calc" type="button" value=1 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value=2 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value=3 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value='-' onclick="pushButton(this.value);"></td>
+    </tr>
+    <tr>
+    <td><input class="calc" type="button" value=0 onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value='.' onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value='C' onclick="pushButton(this.value);"></td>
+    <td><input class="calc" type="button" value='+' onclick="pushButton(this.value);"></td>
+    </tr>
+    <tr><td colspan=3><input class="calc" type="button" value='=' onclick="calculate(document.getElementById('screen').value);"></td></tr>
+    </table>
+
+    <div id="title">
+       <h1>"CALCULATOR DESIGN"</h1>
+    </div>
+
+    <div id="time">
+       <p>2019 ⓒ</p>
+    </div>
+       
+    <div id="name">
+        <h2>c/o ADRIAN ZAMORA ™</h2>
+    </div>
+
+    
+    <script src="script.js"></script>
+    
+    </body>
+</html>
